@@ -1,0 +1,15 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Format" type="MixRunConfigurationType" factoryName="Elixir Mix">
+    <module name="raknet" />
+    <mix>
+      <argument>format</argument>
+    </mix>
+    <working-directory url="file://$PROJECT_DIR$" />
+    <envs>
+      <env name="MIX_ENV" value="test" />
+    </envs>
+    <module name="raknet" />
+    <module-filters inherit-application-module-filters="true" />
+    <method v="2" />
+  </configuration>
+</component>
