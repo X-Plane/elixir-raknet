@@ -1,5 +1,7 @@
 # Elixir RakNet
 
+**`main` build status**: [![main build status](https://circleci.com/gh/X-Plane/elixir-raknet/tree/main.svg?style=svg)](https://circleci.com/gh/X-Plane/elixir-raknet/tree/main) **Latest commit build status**: [![Last commit build status](https://circleci.com/gh/X-Plane/elixir-raknet.svg?style=svg)](https://circleci.com/gh/X-Plane/elixir-raknet)
+
 This is an Elixir implementation of the [RakNet](https://github.com/facebookarchive/RakNet)/RakLib networking communication protocol.
 
 It offers things like stateful connections, reliable (or unreliable) UDP transmissions, and client clock synchronization, all of which are generally necessary for implementing a multiplayer game server. 
