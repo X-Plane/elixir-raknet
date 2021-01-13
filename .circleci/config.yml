@@ -41,10 +41,7 @@ jobs:
 
       - run: LOG_LEVEL=warn SEPARATE_IPV6_PORT=false mix test --exclude ipv6:true
       - store_test_results:  # upload junit test results for display in Test Summary. More info: https://circleci.com/docs/2.0/collect-test-data/
-          path: _build/test/lib/mmo_server
+          path: _build/test/lib/raknet
 
       - run: mix format --check-formatted
       - run: bash -c "mix credo --strict --ignore tagtodo ; if [[ \$? -ge 16 ]] ; then exit 1 ; else exit 0 ; fi"
-
-      - slack/status:
-          fail_only: true
