@@ -109,6 +109,14 @@ The client can send messages using the `connection_pid` it was constructed with,
 
 You can run the complete unit test suite via the standard `$ mix test` from the top-level directory. Note that you'll see a log message about receiving data before the connection negotiation finished—that's deliberate, since we test handling that error case, but it would be somewhat concerning for it to occur in production.
 
+[We use CircleCI](https://app.circleci.com/pipelines/github/X-Plane/elixir-raknet) to run the test suite on every commit.
+
+You can run the same tests that CircleCI does as follows:
+
+1. Run the Credo linter: `$ mix credo --strict`
+2. Confirm the code matches the official formatter: `$ mix format --check-formatted`
+3. Confirm the tests pass: `$ mix test` (or if you like more verbose output, `$ mix test --trace`)
+
 ## Contributing
 
 Before submitting a pull request, please ensure:
