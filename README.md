@@ -20,7 +20,7 @@ Add `raknet` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:raknet, git: "git://github.com/X-Plane/elixir-raknet.git"},
+    {:raknet, git: "git://github.com/X-Plane/elixir-raknet.git", branch: "main"},
   ]
 end
 ```
