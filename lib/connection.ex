@@ -471,7 +471,7 @@ defmodule RakNet.Connection do
   @impl GenServer
   def terminate(reason, connection) do
     Logger.info("Terminating #{inspect(connection.host)}:#{connection.port} due to #{inspect(reason)}")
-    Registry.unregister(RakNet.Connection, {connection.port, connection.host})
+    Registry.unregister(RakNet.Connection, {connection.host, connection.port})
   end
 
   defp reschedule_timeout(%State{timeout_ref: nil} = connection) do
