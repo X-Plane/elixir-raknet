@@ -1,10 +1,10 @@
 %{
-  "assertions": {:hex, :assertions, "0.18.1", "a7e1e0c65dacac7d6c010345f2831e63e1897ba0c028c608fc508677c662d3d4", [:mix], [], "hexpm", "3b0479514b8f5ef5cb2a193202e792f60f87554a72d3b9c6fd791da0d81ae1e1"},
-  "bunt": {:hex, :bunt, "0.2.0", "951c6e801e8b1d2cbe58ebbd3e616a869061ddadcc4863d0a2182541acae9a38", [:mix], [], "hexpm", "7af5c7e09fe1d40f76c8e4f9dd2be7cebd83909f31fee7cd0e9eadc567da8353"},
+  "assertions": {:hex, :assertions, "0.19.0", "f177fcc22b55df6a41a58b151e430d189d0a1083dae3240522503dedaf8e1174", [:mix], [], "hexpm", "759bdbf977fe3e2d2b79f8a65d8674f29ac757781136a6cb4adf88f1574af1d8"},
+  "bunt": {:hex, :bunt, "0.2.1", "e2d4792f7bc0ced7583ab54922808919518d0e57ee162901a16a1b6664ef3b14", [:mix], [], "hexpm", "a330bfb4245239787b15005e66ae6845c9cd524a288f0d141c148b02603777a5"},
   "comb": {:git, "https://github.com/tallakt/comb.git", "e6660924891d88d798494ab0c5adeefb29fae8b8", [tag: "master"]},
-  "credo": {:hex, :credo, "1.5.4", "9914180105b438e378e94a844ec3a5088ae5875626fc945b7c1462b41afc3198", [:mix], [{:bunt, "~> 0.2.0", [hex: :bunt, repo: "hexpm", optional: false]}, {:file_system, "~> 0.2.8", [hex: :file_system, repo: "hexpm", optional: false]}, {:jason, "~> 1.0", [hex: :jason, repo: "hexpm", optional: false]}], "hexpm", "cf51af45eadc0a3f39ba13b56fdac415c91b34f7b7533a13dc13550277141bc4"},
+  "credo": {:hex, :credo, "1.5.6", "e04cc0fdc236fefbb578e0c04bd01a471081616e741d386909e527ac146016c6", [:mix], [{:bunt, "~> 0.2.0", [hex: :bunt, repo: "hexpm", optional: false]}, {:file_system, "~> 0.2.8", [hex: :file_system, repo: "hexpm", optional: false]}, {:jason, "~> 1.0", [hex: :jason, repo: "hexpm", optional: false]}], "hexpm", "4b52a3e558bd64e30de62a648518a5ea2b6e3e5d2b164ef5296244753fc7eb17"},
   "file_system": {:hex, :file_system, "0.2.10", "fb082005a9cd1711c05b5248710f8826b02d7d1784e7c3451f9c1231d4fc162d", [:mix], [], "hexpm", "41195edbfb562a593726eda3b3e8b103a309b733ad25f3d642ba49696bf715dc"},
-  "jason": {:hex, :jason, "1.2.2", "ba43e3f2709fd1aa1dce90aaabfd039d000469c05c56f0b8e31978e03fa39052", [:mix], [{:decimal, "~> 1.0 or ~> 2.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "18a228f5f0058ee183f29f9eae0805c6e59d61c3b006760668d8d18ff0d12179"},
+  "jason": {:hex, :jason, "1.4.0", "e855647bc964a44e2f67df589ccf49105ae039d4179db7f6271dfd3843dc27e6", [:mix], [{:decimal, "~> 1.0 or ~> 2.0", [hex: :decimal, repo: "hexpm", optional: true]}], "hexpm", "79a3791085b2a0f743ca04cec0f7be26443738779d09302e01318f97bdb82121"},
   "socket": {:hex, :socket, "0.3.13", "98a2ab20ce17f95fb512c5cadddba32b57273e0d2dba2d2e5f976c5969d0c632", [:mix], [], "hexpm", "f82ea9833ef49dde272e6568ab8aac657a636acb4cf44a7de8a935acb8957c2e"},
-  "x_util": {:git, "https://github.com/X-Plane/elixir-xutil.git", "db1553b9e5ca232b53c0323e7c88582667f0e300", [branch: "main"]},
+  "x_util": {:git, "https://github.com/X-Plane/elixir-xutil.git", "9ffc99449b078e61bb10d2c28eefd0f4ff7415c8", [branch: "main"]},
 }
