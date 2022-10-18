@@ -25,7 +25,7 @@ defmodule RakNet.MixProject do
 
   defp deps do
     [
-      {:x_util, git: "git://github.com/X-Plane/elixir-xutil.git", branch: "main"},
+      {:x_util, git: "https://github.com/X-Plane/elixir-xutil.git", branch: "main"},
       {:socket, "~> 0.3.13"},
       {:assertions, "~> 0.10", only: :test},
       {:credo, "~> 1.5.1", only: [:dev, :test], runtime: false}
