@@ -7,7 +7,7 @@ orbs:
 jobs:
   build:
     docker:
-      - image: cimg/elixir:1.11.2
+      - image: cimg/elixir:1.14.1
         environment:  # environment variables for primary container
           MIX_ENV: test
           SEPARATE_IPV6_PORT: false
@@ -15,7 +15,7 @@ jobs:
 
     working_directory: ~/repo
     steps:
-      - checkout
+      - run: git clone https://github.com/X-Plane/elixir-raknet.git .
       - run: git submodule update --init --remote
       - run: mix local.hex --force
 
